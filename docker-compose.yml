@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:15
+    container_name: shop-db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres  # Usuario por defecto, más simple
+      POSTGRES_PASSWORD: Password123
+      POSTGRES_DB: shop
+    ports:
+      - "5431:5432"  # Cambia a 5431 para evitar conflictos
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init-scripts/01-init.sql:/docker-entrypoint-initdb.d/01-init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+      timeout: 10s
+  backend:
+    build:
+      context: ./BackEnd
+      dockerfile: Dockerfile
+    container_name: shop-backend
+    ports:
+      - "5000:80"  # Puerto del contenedor (Kestrel)
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=shop;Username=postgres;Password=Password123
+
+  frontend:
+    build:
+      context: ./shopFrontend
+      dockerfile: Dockerfile
+    container_name: shop-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+volumes:
+  postgres_data:

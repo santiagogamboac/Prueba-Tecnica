@@ -1,0 +1,857 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55A6BD5E-DE8E-47A8-8441-CCEE682958AF}|Backend.Tests\\Backend.Tests.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.tests\\integration\\productrepositoryintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A6BD5E-DE8E-47A8-8441-CCEE682958AF}|Backend.Tests\\Backend.Tests.csproj|solutionrelative:backend.tests\\integration\\productrepositoryintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0A385E-7392-417D-BA92-7CF66651707A}|Backend.Application.Domain\\Backend.Application.Domain.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application.domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0A385E-7392-417D-BA92-7CF66651707A}|Backend.Application.Domain\\Backend.Application.Domain.csproj|solutionrelative:backend.application.domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A6BD5E-DE8E-47A8-8441-CCEE682958AF}|Backend.Tests\\Backend.Tests.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.tests\\unit\\producthandlerstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A6BD5E-DE8E-47A8-8441-CCEE682958AF}|Backend.Tests\\Backend.Tests.csproj|solutionrelative:backend.tests\\unit\\producthandlerstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\products\\commands\\deleteproduct\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\products\\commands\\deleteproduct\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\products\\commands\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\products\\commands\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\products\\queries\\getproductsbyparams\\getproductsbyparamsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\products\\queries\\getproductsbyparams\\getproductsbyparamsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\products\\commands\\addproduct\\addproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\products\\commands\\addproduct\\addproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\products\\commands\\bulkcreaterandomproducts\\bulkcreaterandomproductscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\products\\commands\\bulkcreaterandomproducts\\bulkcreaterandomproductscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A3958B-8808-4737-967C-6760ABA14E3A}|Backend.Infraestructure\\Backend.Infraestructure.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.infraestructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A3958B-8808-4737-967C-6760ABA14E3A}|Backend.Infraestructure\\Backend.Infraestructure.csproj|solutionrelative:backend.infraestructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF2BD0F-B6CC-40B8-B6DC-7997DAC07116}|Backend.Identity\\Backend.Identity.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.identity\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF2BD0F-B6CC-40B8-B6DC-7997DAC07116}|Backend.Identity\\Backend.Identity.csproj|solutionrelative:backend.identity\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\contracts\\identity\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\contracts\\identity\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\products\\commands\\editproduct\\editproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\products\\commands\\editproduct\\editproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\products\\commands\\editproduct\\editproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\products\\commands\\editproduct\\editproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\categories\\commands\\addcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\categories\\commands\\addcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0A385E-7392-417D-BA92-7CF66651707A}|Backend.Application.Domain\\Backend.Application.Domain.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application.domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0A385E-7392-417D-BA92-7CF66651707A}|Backend.Application.Domain\\Backend.Application.Domain.csproj|solutionrelative:backend.application.domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\products\\commands\\addproduct\\addproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\products\\commands\\addproduct\\addproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\specifications\\products\\productspecificationcount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\specifications\\products\\productspecificationcount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\specifications\\products\\productspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\specifications\\products\\productspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\specifications\\generalparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\specifications\\generalparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\products\\queries\\getproductsbyparams\\getproductsbyparamsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\products\\queries\\getproductsbyparams\\getproductsbyparamsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\specifications\\products\\productspecificationexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\specifications\\products\\productspecificationexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\models\\viewmodels\\categories\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\models\\viewmodels\\categories\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\categories\\queries\\getcategoriesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\categories\\queries\\getcategoriesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\categories\\commands\\addcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\categories\\commands\\addcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\categories\\queries\\getcategoriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\categories\\queries\\getcategoriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\products\\queries\\getproductsbyid\\getproductsbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\products\\queries\\getproductsbyid\\getproductsbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\features\\products\\queries\\getproductsbyid\\getproductsbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\features\\products\\queries\\getproductsbyid\\getproductsbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF2BD0F-B6CC-40B8-B6DC-7997DAC07116}|Backend.Identity\\Backend.Identity.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.identity\\persistence\\shopidentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF2BD0F-B6CC-40B8-B6DC-7997DAC07116}|Backend.Identity\\Backend.Identity.csproj|solutionrelative:backend.identity\\persistence\\shopidentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF2BD0F-B6CC-40B8-B6DC-7997DAC07116}|Backend.Identity\\Backend.Identity.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.identity\\migrations\\20251107025119_initidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF2BD0F-B6CC-40B8-B6DC-7997DAC07116}|Backend.Identity\\Backend.Identity.csproj|solutionrelative:backend.identity\\migrations\\20251107025119_initidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF2BD0F-B6CC-40B8-B6DC-7997DAC07116}|Backend.Identity\\Backend.Identity.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.identity\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF2BD0F-B6CC-40B8-B6DC-7997DAC07116}|Backend.Identity\\Backend.Identity.csproj|solutionrelative:backend.identity\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF2BD0F-B6CC-40B8-B6DC-7997DAC07116}|Backend.Identity\\Backend.Identity.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.identity\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF2BD0F-B6CC-40B8-B6DC-7997DAC07116}|Backend.Identity\\Backend.Identity.csproj|solutionrelative:backend.identity\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0A385E-7392-417D-BA92-7CF66651707A}|Backend.Application.Domain\\Backend.Application.Domain.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application.domain\\common\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0A385E-7392-417D-BA92-7CF66651707A}|Backend.Application.Domain\\Backend.Application.Domain.csproj|solutionrelative:backend.application.domain\\common\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\models\\identity\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\models\\identity\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\models\\identity\\tokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\models\\identity\\tokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\models\\identity\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\models\\identity\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\models\\identity\\getusersparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\models\\identity\\getusersparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\models\\identity\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\models\\identity\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.api\\configuration\\swaggerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\configuration\\swaggerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.api\\configuration\\customswaggerschemafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\configuration\\customswaggerschemafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.api\\configuration\\cultureinfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\configuration\\cultureinfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF2BD0F-B6CC-40B8-B6DC-7997DAC07116}|Backend.Identity\\Backend.Identity.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.identity\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF2BD0F-B6CC-40B8-B6DC-7997DAC07116}|Backend.Identity\\Backend.Identity.csproj|solutionrelative:backend.identity\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.application\\models\\identity\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF9FE1-6E1B-493E-AA9F-526E0C6EDF0B}|Backend.Application\\Backend.Application.csproj|solutionrelative:backend.application\\models\\identity\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|c:\\users\\santiago\\downloads\\prueba-tecnica\\backend\\backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32AC889-B31A-44F1-95EF-96489068D7F8}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetProductsByParamsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Queries\\GetProductsByParams\\GetProductsByParamsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Products\\Queries\\GetProductsByParams\\GetProductsByParamsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Queries\\GetProductsByParams\\GetProductsByParamsQueryHandler.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Products\\Queries\\GetProductsByParams\\GetProductsByParamsQueryHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T13:03:35.85Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application.Domain\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Backend.Application.Domain\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application.Domain\\Models\\Category.cs",
+              "RelativeToolTip": "Backend.Application.Domain\\Models\\Category.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAjwBIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T15:33:25.689Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application.Domain\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Backend.Application.Domain\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application.Domain\\Models\\Product.cs",
+              "RelativeToolTip": "Backend.Application.Domain\\Models\\Product.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T19:45:06.992Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BulkCreateRandomProductsCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\BulkCreateRandomProducts\\BulkCreateRandomProductsCommandHandler.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Products\\Commands\\BulkCreateRandomProducts\\BulkCreateRandomProductsCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\BulkCreateRandomProducts\\BulkCreateRandomProductsCommandHandler.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Products\\Commands\\BulkCreateRandomProducts\\BulkCreateRandomProductsCommandHandler.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T11:19:50.584Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductRepositoryIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Tests\\Integration\\ProductRepositoryIntegrationTests.cs",
+              "RelativeDocumentMoniker": "Backend.Tests\\Integration\\ProductRepositoryIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Tests\\Integration\\ProductRepositoryIntegrationTests.cs",
+              "RelativeToolTip": "Backend.Tests\\Integration\\ProductRepositoryIntegrationTests.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAEwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:36:21.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductHandlersTests.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Tests\\Unit\\ProductHandlersTests.cs",
+              "RelativeDocumentMoniker": "Backend.Tests\\Unit\\ProductHandlersTests.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Tests\\Unit\\ProductHandlersTests.cs",
+              "RelativeToolTip": "Backend.Tests\\Unit\\ProductHandlersTests.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAuwIUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:30:41.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Backend.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwCgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T11:43:40.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeleteProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommandHandler.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommandHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvyYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T20:55:54.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Backend.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T15:14:22.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:18:45.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\AddProduct\\AddProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Products\\Commands\\AddProduct\\AddProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\AddProduct\\AddProductCommandHandler.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Products\\Commands\\AddProduct\\AddProductCommandHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T18:16:57.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Infraestructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Backend.Infraestructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Infraestructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Backend.Infraestructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAvwBcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T21:39:54.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Backend.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:13:57.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Contracts\\Identity\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Contracts\\Identity\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Contracts\\Identity\\IAuthService.cs",
+              "RelativeToolTip": "Backend.Application\\Contracts\\Identity\\IAuthService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAjwAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:18:09.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Identity\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Backend.Identity\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Identity\\Services\\AuthService.cs",
+              "RelativeToolTip": "Backend.Identity\\Services\\AuthService.cs",
+              "ViewState": "AgIAADIBAAAAAAAAAADgvzwBAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T11:19:24.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\EditProduct\\EditProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Products\\Commands\\EditProduct\\EditProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\EditProduct\\EditProductCommandHandler.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Products\\Commands\\EditProduct\\EditProductCommandHandler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADgvyMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T20:05:27.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\EditProduct\\EditProductCommand.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Products\\Commands\\EditProduct\\EditProductCommand.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\EditProduct\\EditProductCommand.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Products\\Commands\\EditProduct\\EditProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T20:05:09.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddCategoryCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Categories\\Commands\\AddCategoryCommandHandler.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Categories\\Commands\\AddCategoryCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Categories\\Commands\\AddCategoryCommandHandler.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Categories\\Commands\\AddCategoryCommandHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA2wBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T15:31:39.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\AddProduct\\AddProductCommand.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Products\\Commands\\AddProduct\\AddProductCommand.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Commands\\AddProduct\\AddProductCommand.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Products\\Commands\\AddProduct\\AddProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T15:31:45.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductSpecificationCount.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Specifications\\Products\\ProductSpecificationCount.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Specifications\\Products\\ProductSpecificationCount.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Specifications\\Products\\ProductSpecificationCount.cs",
+              "RelativeToolTip": "Backend.Application\\Specifications\\Products\\ProductSpecificationCount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T13:50:59.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductSpecification.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Specifications\\Products\\ProductSpecification.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Specifications\\Products\\ProductSpecification.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Specifications\\Products\\ProductSpecification.cs",
+              "RelativeToolTip": "Backend.Application\\Specifications\\Products\\ProductSpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T13:10:18.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetProductsByParamsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Queries\\GetProductsByParams\\GetProductsByParamsQuery.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Products\\Queries\\GetProductsByParams\\GetProductsByParamsQuery.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Queries\\GetProductsByParams\\GetProductsByParamsQuery.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Products\\Queries\\GetProductsByParams\\GetProductsByParamsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T13:03:34.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GeneralParams.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Specifications\\GeneralParams.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Specifications\\GeneralParams.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Specifications\\GeneralParams.cs",
+              "RelativeToolTip": "Backend.Application\\Specifications\\GeneralParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T19:26:41.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductSpecificationExcel.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Specifications\\Products\\ProductSpecificationExcel.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Specifications\\Products\\ProductSpecificationExcel.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Specifications\\Products\\ProductSpecificationExcel.cs",
+              "RelativeToolTip": "Backend.Application\\Specifications\\Products\\ProductSpecificationExcel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T19:26:37.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoryVm.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\ViewModels\\Categories\\CategoryVm.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Models\\ViewModels\\Categories\\CategoryVm.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\ViewModels\\Categories\\CategoryVm.cs",
+              "RelativeToolTip": "Backend.Application\\Models\\ViewModels\\Categories\\CategoryVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T15:32:18.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetCategoriesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Categories\\Queries\\GetCategoriesQueryHandler.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Categories\\Queries\\GetCategoriesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Categories\\Queries\\GetCategoriesQueryHandler.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Categories\\Queries\\GetCategoriesQueryHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T15:04:43.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddCategoryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Categories\\Commands\\AddCategoryCommand.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Categories\\Commands\\AddCategoryCommand.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Categories\\Commands\\AddCategoryCommand.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Categories\\Commands\\AddCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T15:31:28.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GetCategoriesQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Categories\\Queries\\GetCategoriesQuery.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Categories\\Queries\\GetCategoriesQuery.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Categories\\Queries\\GetCategoriesQuery.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Categories\\Queries\\GetCategoriesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T15:04:34.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "Backend.Application\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T13:07:33.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GetProductsByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Queries\\GetProductsById\\GetProductsByIdQuery.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Products\\Queries\\GetProductsById\\GetProductsByIdQuery.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Queries\\GetProductsById\\GetProductsByIdQuery.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Products\\Queries\\GetProductsById\\GetProductsByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T15:02:45.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetProductsByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Queries\\GetProductsById\\GetProductsByIdHandler.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Features\\Products\\Queries\\GetProductsById\\GetProductsByIdHandler.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Features\\Products\\Queries\\GetProductsById\\GetProductsByIdHandler.cs",
+              "RelativeToolTip": "Backend.Application\\Features\\Products\\Queries\\GetProductsById\\GetProductsByIdHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T15:02:51.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20251107025119_InitIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Identity\\Migrations\\20251107025119_InitIdentity.cs",
+              "RelativeDocumentMoniker": "Backend.Identity\\Migrations\\20251107025119_InitIdentity.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Identity\\Migrations\\20251107025119_InitIdentity.cs",
+              "RelativeToolTip": "Backend.Identity\\Migrations\\20251107025119_InitIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:19:22.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ShopIdentityContext.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Identity\\Persistence\\ShopIdentityContext.cs",
+              "RelativeDocumentMoniker": "Backend.Identity\\Persistence\\ShopIdentityContext.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Identity\\Persistence\\ShopIdentityContext.cs",
+              "RelativeToolTip": "Backend.Identity\\Persistence\\ShopIdentityContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:19:54.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Identity\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Backend.Identity\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Identity\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Backend.Identity\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:19:17.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Identity\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "Backend.Identity\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Identity\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "Backend.Identity\\Configurations\\RoleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:19:14.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application.Domain\\Common\\Entity.cs",
+              "RelativeDocumentMoniker": "Backend.Application.Domain\\Common\\Entity.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application.Domain\\Common\\Entity.cs",
+              "RelativeToolTip": "Backend.Application.Domain\\Common\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:19:08.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\ApplicationServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\ApplicationServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\ApplicationServiceRegistration.cs",
+              "RelativeToolTip": "Backend.Application\\ApplicationServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:18:54.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UpdateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\Identity\\UpdateUserRequest.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Models\\Identity\\UpdateUserRequest.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\Identity\\UpdateUserRequest.cs",
+              "RelativeToolTip": "Backend.Application\\Models\\Identity\\UpdateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:18:47.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TokenRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\Identity\\TokenRequest.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Models\\Identity\\TokenRequest.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\Identity\\TokenRequest.cs",
+              "RelativeToolTip": "Backend.Application\\Models\\Identity\\TokenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:18:46.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "JWTSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\Identity\\JWTSettings.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Models\\Identity\\JWTSettings.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\Identity\\JWTSettings.cs",
+              "RelativeToolTip": "Backend.Application\\Models\\Identity\\JWTSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:18:45.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GetUsersParams.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\Identity\\GetUsersParams.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Models\\Identity\\GetUsersParams.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\Identity\\GetUsersParams.cs",
+              "RelativeToolTip": "Backend.Application\\Models\\Identity\\GetUsersParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:18:04.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RegistrationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\Identity\\RegistrationRequest.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Models\\Identity\\RegistrationRequest.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\Identity\\RegistrationRequest.cs",
+              "RelativeToolTip": "Backend.Application\\Models\\Identity\\RegistrationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T12:51:42.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SwaggerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Configuration\\SwaggerConfiguration.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Configuration\\SwaggerConfiguration.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Configuration\\SwaggerConfiguration.cs",
+              "RelativeToolTip": "Backend.API\\Configuration\\SwaggerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T12:40:35.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CustomSwaggerSchemaFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Configuration\\CustomSwaggerSchemaFilter.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Configuration\\CustomSwaggerSchemaFilter.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Configuration\\CustomSwaggerSchemaFilter.cs",
+              "RelativeToolTip": "Backend.API\\Configuration\\CustomSwaggerSchemaFilter.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:17:16.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CultureInfoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Configuration\\CultureInfoConfiguration.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Configuration\\CultureInfoConfiguration.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Configuration\\CultureInfoConfiguration.cs",
+              "RelativeToolTip": "Backend.API\\Configuration\\CultureInfoConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:17:12.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Identity\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Backend.Identity\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Identity\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Backend.Identity\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T16:16:41.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\appsettings.json",
+              "RelativeToolTip": "Backend.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-08T10:48:56.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AuthRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\Identity\\AuthRequest.cs",
+              "RelativeDocumentMoniker": "Backend.Application\\Models\\Identity\\AuthRequest.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.Application\\Models\\Identity\\AuthRequest.cs",
+              "RelativeToolTip": "Backend.Application\\Models\\Identity\\AuthRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T11:43:44.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Program.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Prueba-Tecnica\\BackEnd\\Backend.API\\Program.cs",
+              "RelativeToolTip": "Backend.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T10:41:47.44Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

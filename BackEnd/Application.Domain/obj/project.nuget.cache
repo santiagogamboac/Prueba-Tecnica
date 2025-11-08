@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BsDaeVOxdiSpfz3dPHzE5HfjkOrViYolz2f5k7CYBKgN3VFppRRQw+f3iUMXpTIeAPAQ42L/z8AXSoTCXIntzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\duvan.peñata\\Documents\\Proyectos\\AsisYa\\Backend.API\\Application.Domain\\Application.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\duvan.peñata\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\duvan.peñata\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\duvan.peñata\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}
