@@ -185,3 +185,14 @@ docker-compose logs -f
 # Backend:  http://localhost:5000
 # Swagger:  http://localhost:5000/swagger
 ```
+
+## Ejecución local
+
+- Abrir la solución del proyecto en la ruta Prueba-Tecnica\BackEnd\Backend.API
+- Descomentar el objeto de ConnectionStrings dejando descomentado el puerto 5431 para conexión interna y el 5432 externa.
+- Ejecutar la API
+
+-Abrir el proyecto del frontEnd ubicado en la ruta: Prueba-Tecnica\shopFrontend
+-En los env, dejar comentado el 5000 para que haga las peticiones al puerto 7055 
+Ejecutar el comando npm i
+npm run dev
